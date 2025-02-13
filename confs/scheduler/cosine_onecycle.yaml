@@ -1,0 +1,7 @@
+type: cosine_onecycle_schedule
+kwargs:
+  transition_steps: 200
+  peak_value: 0.01
+  pct_start: 0.2
+  div_factor: 100.0
+  final_div_factor: 1000.0

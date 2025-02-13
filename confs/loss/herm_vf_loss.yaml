@@ -1,0 +1,4 @@
+type: herm_vf_loss
+kwargs:
+  func_num: 80
+  smoothing: 0.99999

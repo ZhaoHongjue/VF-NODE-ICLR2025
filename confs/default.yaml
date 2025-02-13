@@ -1,0 +1,38 @@
+defaults:
+  - _self_
+  - ode: Gompertz
+  - model: NeuralODE
+  - loss: spline_vf_loss
+  - scheduler: cosine_onecycle
+
+project: base
+load: True
+
+ode:
+  auto: True
+
+data:
+  T: 10.0
+  traj_num: 150
+  point_num: 100
+  noise_level: 0.01
+  ratio: 0.8
+  split_num: 5
+  split: False
+
+model:
+  solver:
+    solver_type: Dopri5
+    adjoint_mode: 0
+    rtol: 1.0e-3
+    atol: 1.0e-6
+  
+opt_type: adam
+epochs: 5000
+seed: 0
+
+use_wandb: False
+
+hydra:
+  run:
+    dir: outputs/${project}/${ode.type}/${data}/${model.type}-${model.kwargs}/${opt_type}-${scheduler}/${loss}/seed${seed}

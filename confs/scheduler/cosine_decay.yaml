@@ -1,0 +1,6 @@
+type: cosine_decay_schedule
+kwargs:
+  init_value: 0.001
+  decay_steps: 5000
+  alpha: 0.01
+  exponent: 1.0

@@ -1,0 +1,7 @@
+type: exponential_decay
+kwargs:
+  init_value: 0.001
+  transition_steps: 5000
+  decay_rate: 0.1
+  end_value: 1.0e-5
+  transition_begin: 0

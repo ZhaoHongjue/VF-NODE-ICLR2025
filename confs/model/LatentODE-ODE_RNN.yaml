@@ -1,0 +1,7 @@
+type: LatentODE
+kwargs:
+  hidden_size: 25
+  latent_size: 4
+  node_width_size: 84
+  node_depth: 4
+  enc_type: ODE_RNN

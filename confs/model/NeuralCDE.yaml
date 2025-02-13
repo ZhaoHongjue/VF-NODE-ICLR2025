@@ -1,0 +1,5 @@
+type: NeuralCDE
+kwargs:
+  hidden_size: 4
+  width_size: 89
+  depth: 4

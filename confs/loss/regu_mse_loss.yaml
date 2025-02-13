@@ -1,0 +1,4 @@
+type: regu_mse_loss
+kwargs: 
+  regu_k: 5
+  lamb: 1.0e-3

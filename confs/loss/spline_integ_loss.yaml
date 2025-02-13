@@ -1,0 +1,3 @@
+type: spline_integ_loss
+kwargs:
+  smoothing: 0.99999

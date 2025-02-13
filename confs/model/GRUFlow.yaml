@@ -1,0 +1,4 @@
+type: GRUFlow
+kwargs:
+  width_size: 74
+  depth: 4

@@ -1,0 +1,4 @@
+type: NeuralODE
+kwargs:
+  width_size: 128
+  depth: 4

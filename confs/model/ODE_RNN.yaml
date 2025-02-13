@@ -1,0 +1,7 @@
+type: ODE_RNN
+kwargs:
+  hidden_size: 4
+  node_width_size: 127
+  node_depth: 4
+solver:
+  solver_type: Dopri5 # Midpoint
